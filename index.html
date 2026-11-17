@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RebloxScripts — Scripts Poderosos para Roblox</title>
+  <meta name="description" content="Descubra os melhores scripts para Roblox: auto farm, ESP, fly, bypasses e muito mais. Instalação fácil em 3 passos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <span class="logo-icon">▶</span> Reblox<em>Scripts</em>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#scripts">Scripts</a></li>
+        <li><a href="#categorias">Categorias</a></li>
+        <li><a href="#instalacao">Instalação</a></li>
+        <li><a href="#recursos">Recursos</a></li>
+      </ul>
+      <a href="#scripts" class="btn btn-primary btn-sm nav-cta">Explorar Scripts</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="inicio">
+    <div class="container hero-container">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span> +120 scripts atualizados essa semana
+      </div>
+      <h1>Acesse qualquer jogo do <span class="gradient-text">Roblox</span> com scripts poderosos</h1>
+      <p class="hero-subtitle">
+        Auto farm, ESP, fly, bypasses e ferramentas exclusivas.
+        Scripts otimizados, fáceis de instalar e atualizados toda semana.
+      </p>
+      <div class="hero-actions">
+        <a href="#scripts" class="btn btn-primary btn-lg">🚀 Ver Scripts</a>
+        <a href="#instalacao" class="btn btn-outline btn-lg">⚡ Como Instalar</a>
+      </div>
+
+      <div class="code-window">
+        <div class="code-header">
+          <div class="code-dots">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+          </div>
+          <span class="code-filename">loader.lua</span>
+          <button class="copy-btn" data-copy='loadstring(game:HttpGet("https://raw.githubusercontent.com/RebloxScripts/AutoFarm/main/loader.lua"))()'>
+            📋 Copiar
+          </button>
+        </div>
+        <pre><code><span class="comment">-- Bem-vindo ao RebloxScripts</span>
+<span class="keyword">local</span> repo <span class="keyword">=</span> <span class="string">"RebloxScripts/AutoFarm"</span>
+
+<span class="keyword">local</span> url <span class="operator">=</span> <span class="string">"https://raw.githubusercontent.com/" .. repo .. <span class="string">"/main/loader.lua"</span></span>
+
+<span class="keyword">return</span> loadstring(game:HttpGet(url))()</code></pre>
+      </div>
+    </div>
+  </header>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat">
+        <span class="stat-number">120+</span>
+        <span class="stat-label">Scripts Ativos</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">45K</span>
+        <span class="stat-label">Jogadores</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">320K</span>
+        <span class="stat-label">Downloads</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">4.9★</span>
+        <span class="stat-label">Avaliação Média</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCRIPTS -->
+  <section class="section" id="scripts">
+    <div class="container">
+      <div class="section-header">
+        <h2>Scripts <span class="gradient-text">Em Alta</span></h2>
+        <p>Os favoritos da comunidade agora estão no RebloxScripts. Sem limites, sem limites de velocidade.</p>
+      </div>
+
+      <div class="filters" id="filters">
+        <button class="filter-btn active" data-filter="todos">✨ Todos</button>
+        <button class="filter-btn" data-filter="jogos">🎮 Jogos</button>
+        <button class="filter-btn" data-filter="executores">⚡ Executores</button>
+        <button class="filter-btn" data-filter="byfron">🔓 Byfron</button>
+        <button class="filter-btn" data-filter="utility">🛠️ Utility</button>
+        <button class="filter-btn" data-filter="ferramentas">🔧 Ferramentas</button>
+      </div>
+
+      <div class="scripts-grid" id="scriptsGrid">
+        <article class="script-card" data-category="jogos">
+          <div class="script-top">
+            <span class="script-emoji">🔥</span>
+            <span class="script-category">Jogos</span>
+          </div>
+          <h3>Auto Farm Pro</h3>
+          <p>Recolha automática 24/7 com rotacionamento de alvos. Funciona em 30+ jogos de farm.</p>
+          <div class="script-meta">
+            <span>⬇️ 12.4K</span>
+            <span>⭐ 4.9</span>
+          </div>
+          <button class="btn btn-primary btn-block" data-copy='loadstring(game:HttpGet("https://raw.githubusercontent.com/RebloxScripts/AutoFarmPro/main/loader.lua"))()'>
+            ⚡ Instalar
+          </button>
+        </article>
+
+        <article class="script-card" data-category="jogos">
+          <div class="script-top">
+            <span class="script-emoji">🎯</span>
+            <span class="script-category">Jogos</span>
+          </div>
+          <h3>OP ESP</h3>
+          <p>ESP completo com boxes, tracers e visão de jogadores. Configurável via GUI.</p>
+          <div class="script-meta">
+            <span>⬇️ 28.1K</span>
+            <span>⭐ 5.0</span>
+          </div>
+          <button class="btn btn-primary btn-block" data-copy='loadstring(game:HttpGet("https://raw.githubusercontent.com/RebloxScripts/OPS/esp/main/loader.lua"))()'>
+            ⚡ Instalar
+          </button>
+        </article>
+
+        <article class="script-card" data-category="executores">
+          <div class="script-top">
+            <span class="script-emoji">⚡</span>
+            <span class="script-category">Executores</span>
+          </div>
+          <h3>Reblox Exec v3</h3>
+          <p>Executor com executor de scripts integrado, sandboxing e suporte a bibliotecas.</p>
+          <div class="script-meta">
+            <span>⬇️ 45.6K</span>
+            <span>⭐ 4.8</span>
+          </div>
+          <button class="btn btn-primary btn-block" data-copy='loadstring(game:HttpGet("https://raw.githubusercontent.com/RebloxScripts/RebloxExec/main/loader.lua"))()'>
+            ⚡ Instalar
+          </button>
+        </article>
+
+        <article class="script-card" data-category="byfron">
+          <div class="script-top">
+            <span class="script-emoji">🔓</span>
+            <span class="script-category">Byfron</span>
+          </div>
+          <h3>Byfron Breaker</h3>
+          <p>Contornar proteções de servidor de forma estável e atualizada.</p>
+          <div class="script-meta">
+            <span>⬇️ 19.3K</span>
+            <span>⭐ 4.7</span>
+          </div>
+          <button class="btn btn-primary btn-block" data-copy='loadstring(game:HttpGet("https://raw.githubusercontent.com/RebloxScripts/ByfronBreaker/main/loader.lua"))()'>
+            ⚡ Instalar
+          </button>
+        </article>
+
+        <article class="script-card" data-category="utility">
+          <div class="script-top">
+            <span class="script-emoji">✈️</span>
+            <span class="script-category">Utility</span>
+          </div>
+          <h3>Fly & Speed</h3>
+          <p>Voo com controle de velocidade, caminhada invisível e teleporte instantâneo.</p>
+          <div class="script-meta">
+            <span>⬇️ 33.8K</span>
+            <span>⭐ 4.9</span>
+          </div>
+          <button class="btn btn-primary btn-block" data-copy='loadstring(game:HttpGet("https://raw.githubusercontent.com/RebloxScripts/FlySpeed/main/loader.lua"))()'>
+            ⚡ Instalar
+          </button>
+        </article>
+
+        <article class="script-card" data-category="ferramentas">
+          <div class="script-top">
+            <span class="script-emoji">🛡️</span>
+            <span class="script-category">Ferramentas</span>
+          </div>
+          <h3>Anti-AFK Pro</h3>
+          <p>Mantém sua sessão ativa e protege contra quedas de conexão.</p>
+          <div class="script-meta">
+            <span>⬇️ 8.2K</span>
+            <span>⭐ 4.6</span>
+          </div>
+          <button class="btn btn-primary btn-block" data-copy='loadstring(game:HttpGet("https://raw.githubusercontent.com/RebloxScripts/AntiAFK/main/loader.lua"))()'>
+            ⚡ Instalar
+          </button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIAS -->
+  <section class="section section-alt" id="categorias">
+    <div class="container">
+      <div class="section-header">
+        <h2>Explore por <span class="gradient-text">Categoria</span></h2>
+        <p>Há um script para todo tipo de necessidade. Encontre o seu.</p>
+      </div>
+      <div class="categories-grid">
+        <div class="category-card">
+          <span class="category-icon">🎮</span>
+          <h3>Jogos</h3>
+          <p>Auto farm, ESP, trainers e mais para ganhar vantagem.</p>
+          <span class="category-count">45 scripts</span>
+        </div>
+        <div class="category-card">
+          <span class="category-icon">⚡</span>
+          <h3>Executores</h3>
+          <p>Plataformas rápidas com sandboxing e suporte completo a Lua.</p>
+          <span class="category-count">12 scripts</span>
+        </div>
+        <div class="category-card">
+          <span class="category-icon">🔓</span>
+          <h3>Byfron</h3>
+          <p>Bypasses atualizados para contornar as proteções mais recentes.</p>
+          <span class="category-count">8 scripts</span>
+        </div>
+        <div class="category-card">
+          <span class="category-icon">🛠️</span>
+          <h3>Utility</h3>
+          <p>Ferramentas de gameplay: fly, speed, teleport, invisibilidade.</p>
+          <span class="category-count">23 scripts</span>
+        </div>
+        <div class="category-card">
+          <span class="category-icon">🔧</span>
+          <h3>Ferramentas</h3>
+          <p>Anti-AFK, anti-join, geradores e helpers para criadores.</p>
+          <span class="category-count">32 scripts</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSTALAÇÃO -->
+  <section class="section" id="instalacao">
+    <div class="container">
+      <div class="section-header">
+        <h2>Instale em <span class="gradient-text">3 Passos</span></h2>
+        <p>Pronto em menos de 2 minutos, mesmo que você nunca tenha feito isso antes.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <span class="step-number">1</span>
+          <h3>Escolha um Executor</h3>
+          <p>Baixe o executor mais rápido e seguro para o seu sistema.</p>
+        </div>
+        <div class="step">
+          <span class="step-number">2</span>
+          <h3>Copie o Script</h3>
+          <p>Um clique no script copiará o link pronto para a área de transferência.</p>
+        </div>
+        <div class="step">
+          <span class="step-number">3</span>
+          <h3>Execute</h3>
+          <p>Abra o executor, cole, execute e divirta-se.</p>
+        </div>
+      </div>
+      <div class="command-box">
+        <code id="installCommand">loadstring(game:HttpGet("https://raw.githubusercontent.com/RebloxScripts/AutoFarmPro/main/loader.lua"))()</code>
+        <button class="btn btn-primary" data-copy='loadstring(game:HttpGet("https://raw.githubusercontent.com/RebloxScripts/AutoFarmPro/main/loader.lua"))()'>
+          📋 Copiar Comando
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECURSOS -->
+  <section class="section section-alt" id="recursos">
+    <div class="container">
+      <div class="section-header">
+        <h2>Por que usar o <span class="gradient-text">RebloxScripts</span>?</h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <h3>🚀 Instalação Instantânea</h3>
+          <p>Zero configuração. Scripts prontos para uso com um clique.</p>
+        </div>
+        <div class="feature-card">
+          <h3>🔄 Atualizações Diárias</h3>
+          <p>Manter scripts compatíveis com as atualizações do Roblox em tempo real.</p>
+        </div>
+        <div class="feature-card">
+          <h3>🛡️ Segurança</h3>
+          <p>Scripts testados e verificados por nossa equipe antes de publicação.</p>
+        </div>
+        <div class="feature-card">
+          <h3>💬 Comunidade Ativa</h3>
+          <p>Suporte em tempo real e dicas da comunidade em nosso Discord.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container cta-container">
+      <h2>Pronto para dominar os jogos?</h2>
+      <p>Junte-se a mais de 45 mil jogadores usando os melhores scripts do Roblox.</p>
+      <a href="#scripts" class="btn btn-light btn-lg">⚡ Explorar Scripts Agora</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-logo">
+        <span class="logo-icon">▶</span> Reblox<em>Scripts</em>
+      </div>
+      <p class="footer-note">Não afiliado à Roblox Corporation. Roblox é uma marca registrada da Roblox Corporation.</p>
+      <div class="footer-links">
+        <a href="#inicio">Início</a>
+        <a href="#scripts">Scripts</a>
+        <a href="#instalacao">Instalação</a>
+        <a href="#">Discord</a>
+      </div>
+      <p class="copyright">© <span id="year">2026</span> RebloxScripts. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
